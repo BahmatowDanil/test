@@ -10,6 +10,7 @@
 std::atomic<int> flag;
 std::list<std::thread> threadList; 
 
+//
 int main(){
     std::cout << "hello" << std::endl;
     while(flag < 10)
